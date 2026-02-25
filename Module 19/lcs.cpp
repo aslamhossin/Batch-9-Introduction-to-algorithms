@@ -2,7 +2,7 @@
 using namespace std;
 string a,b;
 int dp[1005][1005];
-
+int mx=0, endidx;
 int lcs(int i, int j)
 {
     if(i<0 || j<0) return 0;
@@ -10,13 +10,17 @@ int lcs(int i, int j)
 
     if(a[i] == b[j])
     {
-        return dp[i][j] = lcs(i-1,j-1) + 1;
+        int val = lcs(i-1,j-1) + 1;
+        if(val > mx)
+        {
+            mx = val;
+            endidx = i;
+        }
+        dp[i][j] = val;
     }
     else
     {
-        int op1 = lcs(i-1,j);
-        int op2 = lcs(i,j-1);
-        return dp[i][j] = max(op1,op2);
+        return dp[i][j] = 0;
     }
 }
 
