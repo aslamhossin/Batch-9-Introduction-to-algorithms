@@ -1,8 +1,14 @@
 **/*.exe
+**/*.jar
+**/*.class
+.claude/
+.idea/
+Module*/.claude/
 **/.cph
 **/.cph/*.prob
 **/.vscode
 **/output
 **/*.txt
+
 
 
