@@ -59,11 +59,10 @@ Every AI assistant continuing this repository **MUST** follow these rules:
 
 ## 3. Exact Current State (Where to Resume Right Now)
 
-### Active Spot: **Module 5 — Codelab 5.3a: Island Perimeter** (`Module 5/island_perimeter.cpp`, LeetCode #463)
-- The problem explanation, visual walkthrough (`3x3` island -> perimeter `8`, `4x4` island -> perimeter `16`), and runnable reference file `kotlin_codelabs/module5/Lab5_3a_IslandPerimeterExample.kt` have **already been presented**.
+### Active Spot: **Module 5 — Codelab 5.3b: Number of Closed Islands** (`Module 5/number_of_closed_islands_dfs.cpp` & `Module 5/number_of_closed_islands_bfs.cpp`, LeetCode #1254)
+- **Codelab 5.3a (Island Perimeter)** has just been **completed and verified ✅** (`kotlin_codelabs/module5/Lab5_3a_IslandPerimeterWithInput.kt`).
 - **What to do next:**
-  - **If the learner pastes their Kotlin code for Island Perimeter:** Review it in Bengali, help fix any small bug if needed, save their verified solution as `kotlin_codelabs/module5/Lab5_3a_IslandPerimeterWithInput.kt`, commit & push, and ask if they are ready for `next`.
-  - **If the learner types `next`:** Move directly to **Codelab 5.3b: Number of Closed Islands** (`Module 5/number_of_closed_islands_dfs.cpp` & `Module 5/number_of_closed_islands_bfs.cpp` — LeetCode #1254).
+  - When the learner types `next`, introduce **Codelab 5.3b: Number of Closed Islands** following all rules in Section 2 (Problem Statement + Why Data Structure + Clear Steps + Visual + 100% Full Runnable `Scanner` Kotlin Code + Raw Console Input).
 
 ---
 
@@ -91,8 +90,9 @@ Every AI assistant continuing this repository **MUST** follow these rules:
 - [x] **Codelab 5.2: Number of Islands & Max Area of Island (`Module 5/number_of_islands.cpp`, `Module 5/max_area_of_island.cpp` — LeetCode #200 & #695)**
   - `kotlin_codelabs/module5/Lab5_2a_NumberOfIslands.kt` *(Learner's solution)*
   - `kotlin_codelabs/module5/Lab5_2b_MaxAreaOfIsland.kt` *(Learner's solution)*
-- [ ] **Codelab 5.3a: Island Perimeter (`Module 5/island_perimeter.cpp` — LeetCode #463)** *(Reference added; awaiting learner practice or `next`)*
+- [x] **Codelab 5.3a: Island Perimeter (`Module 5/island_perimeter.cpp` — LeetCode #463)**
   - `kotlin_codelabs/module5/Lab5_3a_IslandPerimeterExample.kt`
+  - `kotlin_codelabs/module5/Lab5_3a_IslandPerimeterWithInput.kt` *(Learner's solution)*
 - [ ] **Codelab 5.3b: Number of Closed Islands (`Module 5/number_of_closed_islands_dfs.cpp`, `Module 5/number_of_closed_islands_bfs.cpp` — LeetCode #1254)**
 - [ ] **Codelab 5.4: Count Sub Islands (`Module 5/count_sub_islands.cpp` — LeetCode #1905)**
 
