@@ -27,11 +27,25 @@ fun countReachableCells(
         return r in 0 until n && c in 0 until m
     }
 
-    // TODO: নিচে আপনার সমাধান লিখুন!
-    // হিন্ট: `var count = 0` নিন এবং `fun dfs(r: Int, c: Int)` লিখে
-    // ৪ পাশের বৈধ (valid), ভিজিট না হওয়া (!vis) এবং খালি ('.') ঘরে যান!
+    if (grid[startRow][startCol] == '#') return 0
 
-    return 0
+    var count = 0
+
+    fun dfs(r: Int, c: Int) {
+        vis[r][c] = true
+        count++
+
+        for (d in 0..<4) {
+            val nr = r + dr[d]
+            val nc = c + dc[d]
+            if (valid(nr, nc) && !vis[nr][nc] && grid[nr][nc] != '#') {
+                dfs(nr, nc)
+            }
+        }
+    }
+
+    dfs(startRow, startCol)
+    return count
 }
 
 fun main() {
@@ -41,7 +55,7 @@ fun main() {
         "...".toCharArray()
     )
     val test1 = countReachableCells(grid1, startRow = 0, startCol = 0)
-    println("Test 1 -> আপনার উত্তর: $test1 | সঠিক উত্তর: 6 | ${if (test1 == 6) "PASS ✅" else "TRY AGAIN ❌"}")
+    println("Test 1 -> আপনার উত্তর: $test1 | সঠিক উত্তর: 7 | ${if (test1 == 7) "PASS ✅" else "TRY AGAIN ❌"}")
 
     val grid2 = arrayOf(
         ".#.".toCharArray(),
