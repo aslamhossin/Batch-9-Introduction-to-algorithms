@@ -59,10 +59,11 @@ Every AI assistant continuing this repository **MUST** follow these rules:
 
 ## 3. Exact Current State (Where to Resume Right Now)
 
-### Active Spot: **Module 5 — Codelab 5.3b: Number of Closed Islands** (`Module 5/number_of_closed_islands_dfs.cpp` & `Module 5/number_of_closed_islands_bfs.cpp`, LeetCode #1254)
-- **Codelab 5.3a (Island Perimeter)** has just been **completed and verified ✅** (`kotlin_codelabs/module5/Lab5_3a_IslandPerimeterWithInput.kt`).
+### Active Spot: **Module 5 — Codelab 5.4: Count Sub Islands** (`Module 5/count_sub_islands.cpp`, LeetCode #1905)
+- **Codelab 5.3a (Island Perimeter)** has been **completed and verified ✅** (`kotlin_codelabs/module5/Lab5_3a_IslandPerimeterWithInput.kt`).
+- **Codelab 5.3b (Number of Closed Islands)** and **Codelab 5.4 (Count Sub Islands)** reference implementations are **verified ✅** (`kotlin_codelabs/module5/Lab5_3b_ClosedIslandsExample.kt`, `kotlin_codelabs/module5/Lab5_4_CountSubIslandsExample.kt`).
 - **What to do next:**
-  - When the learner types `next`, introduce **Codelab 5.3b: Number of Closed Islands** following all rules in Section 2 (Problem Statement + Why Data Structure + Clear Steps + Visual + 100% Full Runnable `Scanner` Kotlin Code + Raw Console Input).
+  - When the learner submits their Kotlin solution for **Codelab 5.4** (or **5.3b**), review/save/verify it, mark it complete, and when they type `next`, advance to **Module 6 — Codelab 6.1: Undirected Graph Cycle Detection (BFS & DFS)** following all rules in Section 2.
 
 ---
 
@@ -94,7 +95,9 @@ Every AI assistant continuing this repository **MUST** follow these rules:
   - `kotlin_codelabs/module5/Lab5_3a_IslandPerimeterExample.kt`
   - `kotlin_codelabs/module5/Lab5_3a_IslandPerimeterWithInput.kt` *(Learner's solution)*
 - [ ] **Codelab 5.3b: Number of Closed Islands (`Module 5/number_of_closed_islands_dfs.cpp`, `Module 5/number_of_closed_islands_bfs.cpp` — LeetCode #1254)**
+  - `kotlin_codelabs/module5/Lab5_3b_ClosedIslandsExample.kt` *(Reference verified ✅; learner practice file pending/optional)*
 - [ ] **Codelab 5.4: Count Sub Islands (`Module 5/count_sub_islands.cpp` — LeetCode #1905)**
+  - `kotlin_codelabs/module5/Lab5_4_CountSubIslandsExample.kt` *(Reference verified ✅; active codelab)*
 
 ---
 
@@ -133,4 +136,4 @@ Every AI assistant continuing this repository **MUST** follow these rules:
 
 Copy and paste this prompt into your new AI tool:
 
-> Read `HANDOFF.md` in the root of this repository carefully. Follow all Bengali teaching, full-runnable `Scanner` Kotlin code, visual clarity, and micro-step rules defined there. Check our active point in Section 3 (`Codelab 5.3a: Island Perimeter` / `Codelab 5.3b: Number of Closed Islands`) and let's continue!
+> Read `HANDOFF.md` in the root of this repository carefully. Follow all Bengali teaching, full-runnable `Scanner` Kotlin code, visual clarity, and micro-step rules defined there. Check our active point in Section 3 (`Codelab 5.4: Count Sub Islands` / `Module 6 — Codelab 6.1`) and let's continue!
