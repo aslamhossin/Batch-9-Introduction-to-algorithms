@@ -44,6 +44,7 @@ Every AI assistant continuing this repository **MUST** follow these rules:
 
 4. **Micro-Step Hands-On Pacing:**
    - Teach **one concept/problem at a time**.
+   - **Atomic 2×2 Hand-Trace First (Zero Overload):** Always start with 1 tiny visual/story example (e.g. 2×2 grid or 3-node graph) traced together interactively in super short Bengali + English chunks BEFORE showing full code; then build the Kotlin code in 2–3 tiny Lego blocks.
    - Invite the learner to write the Kotlin code themselves in IntelliJ `Main.kt` and paste their code for review/debugging (or type `next` when ready to advance).
 
 5. **Git & Privacy Rules:**
@@ -59,11 +60,11 @@ Every AI assistant continuing this repository **MUST** follow these rules:
 
 ## 3. Exact Current State (Where to Resume Right Now)
 
-### Active Spot: **Module 5 — Codelab 5.4: Count Sub Islands** (`Module 5/count_sub_islands.cpp`, LeetCode #1905)
-- **Codelab 5.3a (Island Perimeter)** has been **completed and verified ✅** (`kotlin_codelabs/module5/Lab5_3a_IslandPerimeterWithInput.kt`).
-- **Codelab 5.3b (Number of Closed Islands)** and **Codelab 5.4 (Count Sub Islands)** reference implementations are **verified ✅** (`kotlin_codelabs/module5/Lab5_3b_ClosedIslandsExample.kt`, `kotlin_codelabs/module5/Lab5_4_CountSubIslandsExample.kt`).
+### Active Spot: **Module 6 — Codelab 6.1: Undirected Graph Cycle Detection (BFS & DFS)** (`Module 6/detect_cycle_in_undirected_graph_using_bfs.cpp`, `Module 6/detect_cycle_in_undirected_graph_using_dfs.cpp`)
+- **Codelab 5.4 (Count Sub Islands — LeetCode #1905)** has been **completed, LeetCode Accepted, and verified ✅** (`kotlin_codelabs/module5/Lab5_4_CountSubIslandsWithInput.kt`).
+- **Codelab 5.3b (Number of Closed Islands)** reference is verified (`kotlin_codelabs/module5/Lab5_3b_ClosedIslandsExample.kt`; learner practice optional anytime).
 - **What to do next:**
-  - When the learner submits their Kotlin solution for **Codelab 5.4** (or **5.3b**), review/save/verify it, mark it complete, and when they type `next`, advance to **Module 6 — Codelab 6.1: Undirected Graph Cycle Detection (BFS & DFS)** following all rules in Section 2.
+  - When the learner says `next` / ready, introduce **Codelab 6.1** using the atomic tiny-example hand-trace first (why `parent[]` is required in undirected cycle detection), then build Kotlin code step-by-step following all rules in Section 2.
 
 ---
 
@@ -84,7 +85,7 @@ Every AI assistant continuing this repository **MUST** follow these rules:
 - [x] **Codelab 3.4: Number of Connected Components (`Module 3/number_of_components.cpp`)**
   - `kotlin_codelabs/module3/Lab3_4_ConnectedComponents.kt` *(Learner's solution)*
 
-### Module 5 — LeetCode Graph & Grid Problem Solving *(In Progress 🔄)*
+### Module 5 — LeetCode Graph & Grid Problem Solving *(Core Complete ✅)*
 - [x] **Codelab 5.1: Find if Path Exists in Graph (`Module 5/find_if_path_exists_in_graph.cpp` — LeetCode #1971)**
   - `kotlin_codelabs/module5/Lab5_1_PathExistsExample.kt`
   - `kotlin_codelabs/module5/Lab5_1_PathExistsWithInput.kt` *(Learner's solution)*
@@ -96,8 +97,9 @@ Every AI assistant continuing this repository **MUST** follow these rules:
   - `kotlin_codelabs/module5/Lab5_3a_IslandPerimeterWithInput.kt` *(Learner's solution)*
 - [ ] **Codelab 5.3b: Number of Closed Islands (`Module 5/number_of_closed_islands_dfs.cpp`, `Module 5/number_of_closed_islands_bfs.cpp` — LeetCode #1254)**
   - `kotlin_codelabs/module5/Lab5_3b_ClosedIslandsExample.kt` *(Reference verified ✅; learner practice file pending/optional)*
-- [ ] **Codelab 5.4: Count Sub Islands (`Module 5/count_sub_islands.cpp` — LeetCode #1905)**
-  - `kotlin_codelabs/module5/Lab5_4_CountSubIslandsExample.kt` *(Reference verified ✅; active codelab)*
+- [x] **Codelab 5.4: Count Sub Islands (`Module 5/count_sub_islands.cpp` — LeetCode #1905)**
+  - `kotlin_codelabs/module5/Lab5_4_CountSubIslandsExample.kt` *(Reference verified ✅)*
+  - `kotlin_codelabs/module5/Lab5_4_CountSubIslandsWithInput.kt` *(Learner's solution — LeetCode #1905 Accepted ✅)*
 
 ---
 
@@ -136,4 +138,4 @@ Every AI assistant continuing this repository **MUST** follow these rules:
 
 Copy and paste this prompt into your new AI tool:
 
-> Read `HANDOFF.md` in the root of this repository carefully. Follow all Bengali teaching, full-runnable `Scanner` Kotlin code, visual clarity, and micro-step rules defined there. Check our active point in Section 3 (`Codelab 5.4: Count Sub Islands` / `Module 6 — Codelab 6.1`) and let's continue!
+> Read `HANDOFF.md` in the root of this repository carefully. Follow all Bengali teaching, full-runnable `Scanner` Kotlin code, visual clarity, and micro-step rules defined there. Check our active point in Section 3 (`Module 6 — Codelab 6.1: Undirected Graph Cycle Detection`) and let's continue!
