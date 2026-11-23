@@ -61,8 +61,7 @@ Every AI assistant continuing this repository **MUST** follow these rules:
 ## 3. Exact Current State (Where to Resume Right Now)
 
 ### Active Spot: **Module 6 — Codelab 6.1: Undirected Graph Cycle Detection (BFS & DFS)** (`Module 6/detect_cycle_in_undirected_graph_using_bfs.cpp`, `Module 6/detect_cycle_in_undirected_graph_using_dfs.cpp`)
-- **Codelab 5.4 (Count Sub Islands — LeetCode #1905)** has been **completed, LeetCode Accepted, and verified ✅** (`kotlin_codelabs/module5/Lab5_4_CountSubIslandsWithInput.kt`).
-- **Codelab 5.3b (Number of Closed Islands)** reference is verified (`kotlin_codelabs/module5/Lab5_3b_ClosedIslandsExample.kt`; learner practice optional anytime).
+- **Module 5 is 100% Complete ✅ (6/6)** — including **Codelab 5.3b (Number of Closed Islands — LeetCode #1254 Accepted ✅)** (`kotlin_codelabs/module5/Lab5_3b_ClosedIslandsWithInput.kt`) and **Codelab 5.4 (Count Sub Islands — LeetCode #1905 Accepted ✅)** (`kotlin_codelabs/module5/Lab5_4_CountSubIslandsWithInput.kt`).
 - **What to do next:**
   - When the learner says `next` / ready, introduce **Codelab 6.1** using the atomic tiny-example hand-trace first (why `parent[]` is required in undirected cycle detection), then build Kotlin code step-by-step following all rules in Section 2.
 
@@ -85,7 +84,7 @@ Every AI assistant continuing this repository **MUST** follow these rules:
 - [x] **Codelab 3.4: Number of Connected Components (`Module 3/number_of_components.cpp`)**
   - `kotlin_codelabs/module3/Lab3_4_ConnectedComponents.kt` *(Learner's solution)*
 
-### Module 5 — LeetCode Graph & Grid Problem Solving *(Core Complete ✅)*
+### Module 5 — LeetCode Graph & Grid Problem Solving *(100% Complete ✅)*
 - [x] **Codelab 5.1: Find if Path Exists in Graph (`Module 5/find_if_path_exists_in_graph.cpp` — LeetCode #1971)**
   - `kotlin_codelabs/module5/Lab5_1_PathExistsExample.kt`
   - `kotlin_codelabs/module5/Lab5_1_PathExistsWithInput.kt` *(Learner's solution)*
@@ -95,8 +94,9 @@ Every AI assistant continuing this repository **MUST** follow these rules:
 - [x] **Codelab 5.3a: Island Perimeter (`Module 5/island_perimeter.cpp` — LeetCode #463)**
   - `kotlin_codelabs/module5/Lab5_3a_IslandPerimeterExample.kt`
   - `kotlin_codelabs/module5/Lab5_3a_IslandPerimeterWithInput.kt` *(Learner's solution)*
-- [ ] **Codelab 5.3b: Number of Closed Islands (`Module 5/number_of_closed_islands_dfs.cpp`, `Module 5/number_of_closed_islands_bfs.cpp` — LeetCode #1254)**
-  - `kotlin_codelabs/module5/Lab5_3b_ClosedIslandsExample.kt` *(Reference verified ✅; learner practice file pending/optional)*
+- [x] **Codelab 5.3b: Number of Closed Islands (`Module 5/number_of_closed_islands_dfs.cpp`, `Module 5/number_of_closed_islands_bfs.cpp` — LeetCode #1254)**
+  - `kotlin_codelabs/module5/Lab5_3b_ClosedIslandsExample.kt` *(Reference verified ✅)*
+  - `kotlin_codelabs/module5/Lab5_3b_ClosedIslandsWithInput.kt` *(Learner's solution — LeetCode #1254 Accepted ✅)*
 - [x] **Codelab 5.4: Count Sub Islands (`Module 5/count_sub_islands.cpp` — LeetCode #1905)**
   - `kotlin_codelabs/module5/Lab5_4_CountSubIslandsExample.kt` *(Reference verified ✅)*
   - `kotlin_codelabs/module5/Lab5_4_CountSubIslandsWithInput.kt` *(Learner's solution — LeetCode #1905 Accepted ✅)*
