@@ -1,4 +1,7 @@
+package leetcode
+
 import java.util.Scanner
+import kotlin.text.iterator
 
 fun isValid(s: String): Boolean {
     val stack = ArrayDeque<Char>()
