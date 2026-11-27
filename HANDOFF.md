@@ -10,7 +10,7 @@ This document captures the complete context, teaching methodology, verified file
 - **Instruction Language:** **Bengali (বাংলা)** — concise, encouraging, step-by-step explanations.
 - **Code & Local Setup:**
   - Learner writes and runs code in **IntelliJ IDEA** (`Main.kt`, Kotlin `2.x` using modern syntax such as `0..<n`, `r in 0..<n`, `ArrayDeque`, `.not()`, `.coerceAtLeast()`).
-  - Codelab files are stored under `kotlin_codelabs/moduleX/`.
+  - Codelab files are stored under `src/moduleX/`.
 
 ---
 
@@ -61,7 +61,7 @@ Every AI assistant continuing this repository **MUST** follow these rules:
 ## 3. Exact Current State (Where to Resume Right Now)
 
 ### Active Spot: **Round 1 Interview Prep — Open GitHub Issues (`#9`–`#22`, `#24`–`#56`) + Interactive Kotlin Practice**
-- **100% Course C++ → Kotlin Conversion Complete ✅:** All modules (`Module 1` through `Module 19`) have been converted to standalone, `kotlinc`-verified Kotlin 2.x implementations under `kotlin_codelabs/module1/` through `kotlin_codelabs/module19/`, and all legacy C++ `Module *` directories have been retired.
+- **100% Course C++ → Kotlin Conversion Complete ✅:** All modules (`Module 1` through `Module 19`) have been converted to standalone, `kotlinc`-verified Kotlin 2.x implementations under `src/module1/` through `src/module19/`, and all legacy C++ `Module *` directories have been retired.
 - **Completed LeetCode Track Issues:** `#23` (`LC #20 Valid Parentheses`), `#33` (`LC #739 Daily Temperatures`), plus Module 5 LeetCode solutions (`#1971`, `#200`, `#695`, `#463`, `#1254`, `#1905`).
 - **What to do next:**
   - Continue solving open GitHub Issues (`#24`–`#56` LeetCode track and `#9`–`#22` Programming & Mobile System Design track) using the atomic tiny-example hand-trace first, then building clean Kotlin 2.x code step-by-step and closing each verified issue.
@@ -72,56 +72,56 @@ Every AI assistant continuing this repository **MUST** follow these rules:
 
 ### Module 3 — Depth First Search (DFS) & 2D Grid Traversal *(100% Complete ✅)*
 - [x] **Codelab 3.1: Graph DFS (`Module 3/dfs.cpp`)**
-  - `kotlin_codelabs/module3/Lab3_1_DfsExample.kt`
-  - `kotlin_codelabs/module3/Lab3_1_DfsWithInput.kt` *(Learner's solution)*
-  - `kotlin_codelabs/module3/Lab3_1_Practice.kt`
+  - `src/module3/Lab3_1_DfsExample.kt`
+  - `src/module3/Lab3_1_DfsWithInput.kt` *(Learner's solution)*
+  - `src/module3/Lab3_1_Practice.kt`
 - [x] **Codelab 3.2: 2D Grid DFS (`Module 3/dfs_on_2d_grid.cpp`)**
-  - `kotlin_codelabs/module3/Lab3_2_GridDfsExample.kt`
-  - `kotlin_codelabs/module3/Lab3_2_GridDfsWithInput.kt` *(Learner's solution)*
-  - `kotlin_codelabs/module3/Lab3_2_Practice.kt`
+  - `src/module3/Lab3_2_GridDfsExample.kt`
+  - `src/module3/Lab3_2_GridDfsWithInput.kt` *(Learner's solution)*
+  - `src/module3/Lab3_2_Practice.kt`
 - [x] **Codelab 3.3: 2D Grid BFS Shortest Path (`Module 3/bfs_on_2d_grid.cpp`)**
-  - `kotlin_codelabs/module3/Lab3_3_GridBfsExample.kt`
-  - `kotlin_codelabs/module3/Lab3_3_GridBfsWithInput.kt` *(Learner's solution)*
+  - `src/module3/Lab3_3_GridBfsExample.kt`
+  - `src/module3/Lab3_3_GridBfsWithInput.kt` *(Learner's solution)*
 - [x] **Codelab 3.4: Number of Connected Components (`Module 3/number_of_components.cpp`)**
-  - `kotlin_codelabs/module3/Lab3_4_ConnectedComponents.kt` *(Learner's solution)*
+  - `src/module3/Lab3_4_ConnectedComponents.kt` *(Learner's solution)*
 
 ### Module 5 — LeetCode Graph & Grid Problem Solving *(100% Complete ✅)*
 - [x] **Codelab 5.1: Find if Path Exists in Graph (`Module 5/find_if_path_exists_in_graph.cpp` — LeetCode #1971)**
-  - `kotlin_codelabs/module5/Lab5_1_PathExistsExample.kt`
-  - `kotlin_codelabs/module5/Lab5_1_PathExistsWithInput.kt` *(Learner's solution)*
+  - `src/module5/Lab5_1_PathExistsExample.kt`
+  - `src/module5/Lab5_1_PathExistsWithInput.kt` *(Learner's solution)*
 - [x] **Codelab 5.2: Number of Islands & Max Area of Island (`Module 5/number_of_islands.cpp`, `Module 5/max_area_of_island.cpp` — LeetCode #200 & #695)**
-  - `kotlin_codelabs/module5/Lab5_2a_NumberOfIslands.kt` *(Learner's solution)*
-  - `kotlin_codelabs/module5/Lab5_2b_MaxAreaOfIsland.kt` *(Learner's solution)*
+  - `src/module5/Lab5_2a_NumberOfIslands.kt` *(Learner's solution)*
+  - `src/module5/Lab5_2b_MaxAreaOfIsland.kt` *(Learner's solution)*
 - [x] **Codelab 5.3a: Island Perimeter (`Module 5/island_perimeter.cpp` — LeetCode #463)**
-  - `kotlin_codelabs/module5/Lab5_3a_IslandPerimeterExample.kt`
-  - `kotlin_codelabs/module5/Lab5_3a_IslandPerimeterWithInput.kt` *(Learner's solution)*
+  - `src/module5/Lab5_3a_IslandPerimeterExample.kt`
+  - `src/module5/Lab5_3a_IslandPerimeterWithInput.kt` *(Learner's solution)*
 - [x] **Codelab 5.3b: Number of Closed Islands (`Module 5/number_of_closed_islands_dfs.cpp`, `Module 5/number_of_closed_islands_bfs.cpp` — LeetCode #1254)**
-  - `kotlin_codelabs/module5/Lab5_3b_ClosedIslandsExample.kt` *(Reference verified ✅)*
-  - `kotlin_codelabs/module5/Lab5_3b_ClosedIslandsWithInput.kt` *(Learner's solution — LeetCode #1254 Accepted ✅)*
+  - `src/module5/Lab5_3b_ClosedIslandsExample.kt` *(Reference verified ✅)*
+  - `src/module5/Lab5_3b_ClosedIslandsWithInput.kt` *(Learner's solution — LeetCode #1254 Accepted ✅)*
 - [x] **Codelab 5.4: Count Sub Islands (`Module 5/count_sub_islands.cpp` — LeetCode #1905)**
-  - `kotlin_codelabs/module5/Lab5_4_CountSubIslandsExample.kt` *(Reference verified ✅)*
-  - `kotlin_codelabs/module5/Lab5_4_CountSubIslandsWithInput.kt` *(Learner's solution — LeetCode #1905 Accepted ✅)*
+  - `src/module5/Lab5_4_CountSubIslandsExample.kt` *(Reference verified ✅)*
+  - `src/module5/Lab5_4_CountSubIslandsWithInput.kt` *(Learner's solution — LeetCode #1905 Accepted ✅)*
 
 ---
 
 ## 5. Full Course Kotlin Conversion Inventory (`Module 1` → `Module 19` — 100% Verified ✅)
 
-- [x] **Module 1 — Graph Representations** (`kotlin_codelabs/module1/`, 5 files: Adjacency Matrix, Adjacency List, Edge List)
-- [x] **Module 2 — BFS Traversal & Shortest Path** (`kotlin_codelabs/module2/`, 4 files: BFS, Reachability, Distance, Path Printing)
-- [x] **Module 3 — DFS & 2D Grid Traversal** (`kotlin_codelabs/module3/`, 9 files)
-- [x] **Module 5 — LeetCode Graph & Grid Problems** (`kotlin_codelabs/module5/`, 10 files)
-- [x] **Module 6 — Cycle Detection** (`kotlin_codelabs/module6/`, 4 files: Undirected BFS/DFS, Directed DFS `pathVisited` & Kahn's BFS)
-- [x] **Module 7 — Weighted Graphs & Dijkstra's Algorithm** (`kotlin_codelabs/module7/`, 4 files: Weighted Adj List, PriorityQueue Pairs, Naive & Optimized Dijkstra)
-- [x] **Module 9 — Bellman-Ford Algorithm** (`kotlin_codelabs/module9/`, 2 files: Bellman-Ford, Negative Weight Cycle Detection)
-- [x] **Module 10 — Floyd-Warshall Algorithm** (`kotlin_codelabs/module10/`, 3 files: Floyd-Warshall, Negative Cycle, Shortest Routes II)
-- [x] **Module 11 — Disjoint Set Union (DSU)** (`kotlin_codelabs/module11/`, 5 files: Find Loop/Recursion/Path Compression, Union by Size, Cycle Detection)
-- [x] **Module 13 — Mixed Graph Problem Solving** (`kotlin_codelabs/module13/`, 4 files: C_Dijkstra, Road Construction, Roads Not Only in Berland, Sundorban)
-- [x] **Module 14 — Recursion & Basic DP** (`kotlin_codelabs/module14/`, 6 files: Recursion, Factorial, Fibonacci Naive/Memo/Bottom-Up, Climbing Stairs)
-- [x] **Module 15 — 0-1 Knapsack** (`kotlin_codelabs/module15/`, 3 files: Recursive, DP Memoization, U_Knapsack)
-- [x] **Module 17 — Subset Sum & Unbounded Knapsack** (`kotlin_codelabs/module17/`, 6 files: Subset Sum, Count Subset Sum, Equal Sum Partition, Unbounded Knapsack, Coin Change II)
-- [x] **Module 18 — Divide & Conquer (Merge Sort)** (`kotlin_codelabs/module18/`, 3 files: Divide, Conquer, Merge Sort)
-- [x] **Module 19 — LCS & Kruskal's MST** (`kotlin_codelabs/module19/`, 3 files: LCS Length, Printing LCS, Kruskal's MST)
-- [x] **LeetCode Interview Track** (`kotlin_codelabs/leetcode/`, verified solutions pushed as issues are closed)
+- [x] **Module 1 — Graph Representations** (`src/module1/`, 5 files: Adjacency Matrix, Adjacency List, Edge List)
+- [x] **Module 2 — BFS Traversal & Shortest Path** (`src/module2/`, 4 files: BFS, Reachability, Distance, Path Printing)
+- [x] **Module 3 — DFS & 2D Grid Traversal** (`src/module3/`, 9 files)
+- [x] **Module 5 — LeetCode Graph & Grid Problems** (`src/module5/`, 10 files)
+- [x] **Module 6 — Cycle Detection** (`src/module6/`, 4 files: Undirected BFS/DFS, Directed DFS `pathVisited` & Kahn's BFS)
+- [x] **Module 7 — Weighted Graphs & Dijkstra's Algorithm** (`src/module7/`, 4 files: Weighted Adj List, PriorityQueue Pairs, Naive & Optimized Dijkstra)
+- [x] **Module 9 — Bellman-Ford Algorithm** (`src/module9/`, 2 files: Bellman-Ford, Negative Weight Cycle Detection)
+- [x] **Module 10 — Floyd-Warshall Algorithm** (`src/module10/`, 3 files: Floyd-Warshall, Negative Cycle, Shortest Routes II)
+- [x] **Module 11 — Disjoint Set Union (DSU)** (`src/module11/`, 5 files: Find Loop/Recursion/Path Compression, Union by Size, Cycle Detection)
+- [x] **Module 13 — Mixed Graph Problem Solving** (`src/module13/`, 4 files: C_Dijkstra, Road Construction, Roads Not Only in Berland, Sundorban)
+- [x] **Module 14 — Recursion & Basic DP** (`src/module14/`, 6 files: Recursion, Factorial, Fibonacci Naive/Memo/Bottom-Up, Climbing Stairs)
+- [x] **Module 15 — 0-1 Knapsack** (`src/module15/`, 3 files: Recursive, DP Memoization, U_Knapsack)
+- [x] **Module 17 — Subset Sum & Unbounded Knapsack** (`src/module17/`, 6 files: Subset Sum, Count Subset Sum, Equal Sum Partition, Unbounded Knapsack, Coin Change II)
+- [x] **Module 18 — Divide & Conquer (Merge Sort)** (`src/module18/`, 3 files: Divide, Conquer, Merge Sort)
+- [x] **Module 19 — LCS & Kruskal's MST** (`src/module19/`, 3 files: LCS Length, Printing LCS, Kruskal's MST)
+- [x] **LeetCode Interview Track** (`src/leetcode/`, verified solutions pushed as issues are closed)
 
 ---
 
