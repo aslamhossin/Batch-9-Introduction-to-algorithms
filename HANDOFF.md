@@ -60,10 +60,11 @@ Every AI assistant continuing this repository **MUST** follow these rules:
 
 ## 3. Exact Current State (Where to Resume Right Now)
 
-### Active Spot: **Module 6 — Codelab 6.1: Undirected Graph Cycle Detection (BFS & DFS)** (`Module 6/detect_cycle_in_undirected_graph_using_bfs.cpp`, `Module 6/detect_cycle_in_undirected_graph_using_dfs.cpp`)
-- **Module 5 is 100% Complete ✅ (6/6)** — including **Codelab 5.3b (Number of Closed Islands — LeetCode #1254 Accepted ✅)** (`kotlin_codelabs/module5/Lab5_3b_ClosedIslandsWithInput.kt`) and **Codelab 5.4 (Count Sub Islands — LeetCode #1905 Accepted ✅)** (`kotlin_codelabs/module5/Lab5_4_CountSubIslandsWithInput.kt`).
+### Active Spot: **Round 1 Interview Prep — Open GitHub Issues (`#9`–`#22`, `#24`–`#56`) + Interactive Kotlin Practice**
+- **100% Course C++ → Kotlin Conversion Complete ✅:** All modules (`Module 1` through `Module 19`) have been converted to standalone, `kotlinc`-verified Kotlin 2.x implementations under `kotlin_codelabs/module1/` through `kotlin_codelabs/module19/`, and all legacy C++ `Module *` directories have been retired.
+- **Completed LeetCode Track Issues:** `#23` (`LC #20 Valid Parentheses`), `#33` (`LC #739 Daily Temperatures`), plus Module 5 LeetCode solutions (`#1971`, `#200`, `#695`, `#463`, `#1254`, `#1905`).
 - **What to do next:**
-  - When the learner says `next` / ready, introduce **Codelab 6.1** using the atomic tiny-example hand-trace first (why `parent[]` is required in undirected cycle detection), then build Kotlin code step-by-step following all rules in Section 2.
+  - Continue solving open GitHub Issues (`#24`–`#56` LeetCode track and `#9`–`#22` Programming & Mobile System Design track) using the atomic tiny-example hand-trace first, then building clean Kotlin 2.x code step-by-step and closing each verified issue.
 
 ---
 
@@ -103,34 +104,24 @@ Every AI assistant continuing this repository **MUST** follow these rules:
 
 ---
 
-## 5. Remaining Course Roadmap (Module 6 → Module 19)
+## 5. Full Course Kotlin Conversion Inventory (`Module 1` → `Module 19` — 100% Verified ✅)
 
-- **Module 6 — Cycle Detection:**
-  - [ ] **Codelab 6.1:** Undirected Graph Cycle Detection using BFS & DFS (`Module 6/detect_cycle_in_undirected_graph_using_bfs.cpp`, `detect_cycle_in_undirected_graph_using_dfs.cpp` — why `parent[]` is required)
-  - [ ] **Codelab 6.2:** Directed Graph Cycle Detection using DFS & BFS (`Module 6/detect_cycle_in_directed_graph_using_dfs.cpp`, `detect_cycle_in_directed_graph_using_bfs.cpp` — why `pathVis[]` / recursion-stack tracking is required)
-
-- **Module 7 — Weighted Graphs & Dijkstra's Algorithm:**
-  - [ ] **Codelab 7.1:** Weighted Adjacency List & Kotlin `PriorityQueue` (`Module 7/adj_list_for_weighted_graph.cpp`, `priority_queue_of_pairs.cpp`)
-  - [ ] **Codelab 7.2:** Naive vs Optimized Dijkstra (`Module 7/Dijkstra_naive.cpp`, `Dijkstra_optimized.cpp` — why normal BFS Queue fails when edges have unequal weights)
-
-- **Module 9 — Bellman-Ford Algorithm:**
-  - [ ] **Codelab 9.1:** Bellman-Ford & Negative Weight Cycle Detection (`Module 9/*.cpp`)
-
-- **Module 10 — Floyd-Warshall Algorithm:**
-  - [ ] **Codelab 10.1:** All-Pairs Shortest Path (`Module 10/*.cpp`)
-
-- **Module 11 & Module 13 — Disjoint Set Union (DSU) & Mixed Graph Problems:**
-  - [ ] **Codelab 11.1:** DSU `find` (Path Compression), `union` by Size/Rank & Cycle Detection (`Module 11/*.cpp`)
-  - [ ] **Codelab 13.1:** Mixed Graph Problem Solving (`Module 13/C_Dijkstra.cpp`, `road_constructions.cpp`, `D_Roads_not_only_in_Berland.cpp`, `sundorban.cpp`)
-
-- **Module 14, Module 15 & Module 17 — Dynamic Programming (DP):**
-  - [ ] **Codelab 14.1:** Recursion, Memoization & Bottom-Up Tabulation (`Module 14/*.cpp`)
-  - [ ] **Codelab 15.1:** 0-1 Knapsack (`Module 15/*.cpp`)
-  - [ ] **Codelab 17.1:** Subset Sum, Count of Subset Sum, Equal Sum Partition, Unbounded Knapsack & Coin Change II (`Module 17/*.cpp`)
-
-- **Module 18 & Module 19 — Divide & Conquer, LCS & Minimum Spanning Tree (MST):**
-  - [ ] **Codelab 18.1:** Merge Sort (`Module 18/*.cpp`)
-  - [ ] **Codelab 19.1:** Longest Common Subsequence (`Module 19/lcs.cpp`, `printing_lcs.cpp` — practical connection to Android `DiffUtil`) & Kruskal's MST (`Module 19/mst.cpp`)
+- [x] **Module 1 — Graph Representations** (`kotlin_codelabs/module1/`, 5 files: Adjacency Matrix, Adjacency List, Edge List)
+- [x] **Module 2 — BFS Traversal & Shortest Path** (`kotlin_codelabs/module2/`, 4 files: BFS, Reachability, Distance, Path Printing)
+- [x] **Module 3 — DFS & 2D Grid Traversal** (`kotlin_codelabs/module3/`, 9 files)
+- [x] **Module 5 — LeetCode Graph & Grid Problems** (`kotlin_codelabs/module5/`, 10 files)
+- [x] **Module 6 — Cycle Detection** (`kotlin_codelabs/module6/`, 4 files: Undirected BFS/DFS, Directed DFS `pathVisited` & Kahn's BFS)
+- [x] **Module 7 — Weighted Graphs & Dijkstra's Algorithm** (`kotlin_codelabs/module7/`, 4 files: Weighted Adj List, PriorityQueue Pairs, Naive & Optimized Dijkstra)
+- [x] **Module 9 — Bellman-Ford Algorithm** (`kotlin_codelabs/module9/`, 2 files: Bellman-Ford, Negative Weight Cycle Detection)
+- [x] **Module 10 — Floyd-Warshall Algorithm** (`kotlin_codelabs/module10/`, 3 files: Floyd-Warshall, Negative Cycle, Shortest Routes II)
+- [x] **Module 11 — Disjoint Set Union (DSU)** (`kotlin_codelabs/module11/`, 5 files: Find Loop/Recursion/Path Compression, Union by Size, Cycle Detection)
+- [x] **Module 13 — Mixed Graph Problem Solving** (`kotlin_codelabs/module13/`, 4 files: C_Dijkstra, Road Construction, Roads Not Only in Berland, Sundorban)
+- [x] **Module 14 — Recursion & Basic DP** (`kotlin_codelabs/module14/`, 6 files: Recursion, Factorial, Fibonacci Naive/Memo/Bottom-Up, Climbing Stairs)
+- [x] **Module 15 — 0-1 Knapsack** (`kotlin_codelabs/module15/`, 3 files: Recursive, DP Memoization, U_Knapsack)
+- [x] **Module 17 — Subset Sum & Unbounded Knapsack** (`kotlin_codelabs/module17/`, 6 files: Subset Sum, Count Subset Sum, Equal Sum Partition, Unbounded Knapsack, Coin Change II)
+- [x] **Module 18 — Divide & Conquer (Merge Sort)** (`kotlin_codelabs/module18/`, 3 files: Divide, Conquer, Merge Sort)
+- [x] **Module 19 — LCS & Kruskal's MST** (`kotlin_codelabs/module19/`, 3 files: LCS Length, Printing LCS, Kruskal's MST)
+- [x] **LeetCode Interview Track** (`kotlin_codelabs/leetcode/`, verified solutions pushed as issues are closed)
 
 ---
 
@@ -138,4 +129,4 @@ Every AI assistant continuing this repository **MUST** follow these rules:
 
 Copy and paste this prompt into your new AI tool:
 
-> Read `HANDOFF.md` in the root of this repository carefully. Follow all Bengali teaching, full-runnable `Scanner` Kotlin code, visual clarity, and micro-step rules defined there. Check our active point in Section 3 (`Module 6 — Codelab 6.1: Undirected Graph Cycle Detection`) and let's continue!
+> Read `HANDOFF.md` in the root of this repository carefully. Follow all Bengali teaching, atomic 2×2 hand-trace first, full-runnable `Scanner` Kotlin code, visual clarity, and micro-step rules defined there. Check our active point in Section 3 (open GitHub Issues `#9`–`#22`, `#24`–`#56`) and let's continue!
